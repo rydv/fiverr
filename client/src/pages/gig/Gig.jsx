@@ -1,10 +1,10 @@
 import React from 'react';
-import "./Add.scss";
+import "./Gig.scss";
 
-const Add = () => {
+const Gig = () => {
   return (
-    <div className='add'>Add</div>
+    <div className='gig'>Gig</div>
   )
 }
 
-export default Add
+export default Gig
