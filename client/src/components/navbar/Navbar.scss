@@ -60,12 +60,13 @@
                     width: 200px;
                     font-weight: 300;
 
-                    span{
+                    .link{
+                        padding: 3px 5px;
+
                         &:hover{
                             background-color: lightgray;
                             cursor: pointer;
                             border-radius: 5px;
-                            padding: 3px;
                         }
                     }
                 }
