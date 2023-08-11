@@ -5,14 +5,16 @@ import TrustedBy from '../../components/trustedBy/TrustedBy';
 import Slide from '../../components/slide/Slide';
 import CatCard from '../../components/catCard/CatCard'
 import { cards } from '../../data';
+import { projects } from '../../data';
 import VerifiedRoundedIcon from '@mui/icons-material/VerifiedRounded';
+import ProjectCard from '../../components/projectCard/ProjectCard';
 
 const Home = () => {
   return (
     <div className='home'>
       <Featured />
       <TrustedBy />
-      <Slide slidesToShow={5} arrowsScroll={5}>
+      <Slide slidesToShow={5} arrowsScroll={5} heading={'Popular Services'}>
         {cards.map((card)=>(
           <CatCard item={card} key={card.id}/>
         ))}     
@@ -91,6 +93,11 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Slide slidesToShow={4} arrowsScroll={4} heading={'Inspiring work made on Fiverr'}>
+        {projects.map((card)=>(
+          <ProjectCard item={card} key={card.id}/>
+        ))}     
+      </Slide>
     </div>
   )
 }
