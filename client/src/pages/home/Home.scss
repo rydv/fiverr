@@ -27,7 +27,6 @@
                     img{
                         width: 24px;
                         height: 24px;
-                
                     }
                 }
                 p{
@@ -41,6 +40,81 @@
                 video{
                     width: 650px;
                     border-radius: 5px;
+                }
+            }
+            
+        }
+    }
+    .featuresBuz{
+        background-color: rgb(18, 18, 86);
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        .container{
+            display: flex;
+            width: 85%;
+            gap: 100px;
+            margin: 100px 0px;
+            align-items: center;
+            .item{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                h1{
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    color: white;
+                }
+                .itemHead{
+                    span{
+                        color: white;
+                        margin-left: 10px;
+                        font-size: 20px;
+                        font-weight: 300;
+                        }
+                    h1{
+                        display: inline;
+                        span{
+                            color: green;
+                            font-weight: 500;
+                            margin-left: 0px;
+                        }
+                    }
+                }
+                .businesscat{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .icon{
+                        color: rgb(141, 126, 194);
+                    }
+                    span{
+                        font-weight: 500;
+                    }
+                }
+                p{
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: white;
+                    line-height: 28px;
+                    letter-spacing: 1px;
+                }
+                img{
+                    margin-top: 60px;
+                    margin-left: 20px;
+                    width: 650px;
+                    border-radius: 5px;
+                }
+                button{
+                    height: 45px;
+                    width: 140px;
+                    border-radius: 5px;
+                    border: none;
+                    font-size: 16px;
+                    color: rgb(116, 116, 116);
+                    cursor: pointer;
+                    margin-top: 10px;
                 }
             }
             

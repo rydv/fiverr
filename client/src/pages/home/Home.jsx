@@ -5,6 +5,7 @@ import TrustedBy from '../../components/trustedBy/TrustedBy';
 import Slide from '../../components/slide/Slide';
 import CatCard from '../../components/catCard/CatCard'
 import { cards } from '../../data';
+import VerifiedRoundedIcon from '@mui/icons-material/VerifiedRounded';
 
 const Home = () => {
   return (
@@ -46,8 +47,52 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="featuresBuz">
+        <div className="container">
+          <div className="item">
+            <div className="itemHead">
+              <h1>fiverr<span>.</span></h1>
+              <span className='subHead'>Business Solutions</span>
+            </div>
+            <h1>Advanced solutions and professional talent for businesses</h1>
+            <div className="businesscat">
+              <div className="icon">
+                <VerifiedRoundedIcon />
+              </div>
+              <p>
+                <span>Fiverr Pro</span><br />
+                Access top freelancers and professional business tools for any project
+              </p>
+            </div>
+            <div className="businesscat">
+              <div className="icon">
+                <VerifiedRoundedIcon />
+              </div>
+              <p>
+                <span>Fiverr Certified</span><br />
+                Build your own branded marketplace of certified experts
+              </p>
+            </div>
+            <div className="businesscat">
+              <div className="icon">
+                <VerifiedRoundedIcon />
+              </div>
+              <p>
+                <span>Fiverr Enterprise</span><br />
+                Manage your freelance workforce and onboard additional talent with an end-to-end SaaS solution
+              </p>
+            </div>
+            <button>
+              Learn More
+            </button>
+          </div>
+          <div className="item">
+            <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_2.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624768/business-desktop-870-x2.png"></img>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
 
-export default Home
+export default Home;
