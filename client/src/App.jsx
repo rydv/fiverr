@@ -57,7 +57,7 @@ function App() {
           element: <Orders />
         },
         {
-          path: "/message",
+          path: "/message/:id",
           element: <Message />
         },
         {
